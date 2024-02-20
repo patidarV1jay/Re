@@ -1,0 +1,58 @@
+.leftContainer {
+  flex: 3;
+  overflow-y: scroll;
+  height: calc(100vh-50px);
+}
+.leftWrapper {
+  padding: 20px;
+}
+.sidebarList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sidebarListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.sidebarListItemText {
+  margin-left: 15px;
+  cursor: pointer;
+}
+.showMoreButton {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.showMoreButton:hover {
+  background: #1abc9c;
+  transition: all 0.8s ease;
+}
+.hrLine {
+  margin: 20px 50px 0px 0px;
+}
+.sideBarImage {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.friendListItems {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 15px;
+}
+.friendListItem {
+  align-items: center;
+  display: flex;
+  margin-bottom: 15px;
+}
+.friendName {
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 16px;
+}

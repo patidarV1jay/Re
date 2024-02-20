@@ -13,7 +13,7 @@ const TopBar = () => {
   const { name, handleChange, handleInput } = useTopBar();
   return (
     <div className="topBarContainer">
-      <div className="leftContainer">
+      <div className="topBarLeft">
         <h4 className="topBarLogo">React Social</h4>
       </div>
       <div className="centerContainer">
@@ -31,7 +31,7 @@ const TopBar = () => {
           </button>
         )}
       </div>
-      <div className="rightContainer">
+      <div className="topBarRight">
         <div className="linkContainer">
           <span className=" linkText">Homepage</span>
           <span className="linkText">Timeline</span>

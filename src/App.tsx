@@ -1,7 +1,7 @@
-import { TopBar } from "./components";
+import { HomePage } from "./modules";
 
 const App = () => {
-  return <TopBar />;
+  return <HomePage />;
 };
 
 export default App;
